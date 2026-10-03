@@ -1,6 +1,6 @@
 """Pytest configuration — must run BEFORE any test imports project modules.
 
-Adds the xiaozhi-server directory to sys.path so the existing implicit
+Adds the xiaoluo-server directory to sys.path so the existing implicit
 relative imports (`from core.utils.textUtils import ...`) resolve.
 
 External-API mock toggle (default: mocked)

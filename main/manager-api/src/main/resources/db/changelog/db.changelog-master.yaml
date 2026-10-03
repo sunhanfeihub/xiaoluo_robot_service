@@ -753,3 +753,13 @@ databaseChangeLog:
         - sqlFile:
             encoding: utf8
             path: classpath:db/changelog/202609172100.sql
+
+  - changeSet:
+      id: 202610040000_xiaoluo_brand
+      author: xiaoluo
+      changes:
+        - sqlFile:
+            path: db/changelog/202610040000_xiaoluo_brand.sql
+            relativeToChangelogFile: false
+            splitStatements: true
+            stripComments: true

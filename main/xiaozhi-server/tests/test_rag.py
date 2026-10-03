@@ -1,6 +1,6 @@
 """RAG（检索增强生成）链路测试。
 
-xiaozhi-esp32-server 项目里没有独立的 RAG provider —— RAG 由
+xiaoluo-esp32-server 项目里没有独立的 RAG provider —— RAG 由
 MemoryProvider（mem0ai / powermem）的 ``query_memory`` 配合 LLM 工具
 调用实现。本测试聚焦「save → query → 拿到检索结果」这一核心链路。
 

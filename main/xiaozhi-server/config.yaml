@@ -17,7 +17,7 @@ server:
   # 当你使用docker部署或使用公网部署(使用ssl、域名)时，不一定准确
   # 所以如果你使用docker部署时，将websocket设置成局域网地址
   # 如果你使用公网部署时，将vwebsocket设置成公网地址
-  websocket: ws://你的ip或者域名:端口号/xiaozhi/v1/
+  websocket: ws://你的ip或者域名:端口号/xiaoluo/v1/
   # 视觉分析接口地址
   # 向设备发送的视觉分析的接口地址
   # 如果按下面默认的写法，系统会自动生成视觉识别地址，并输出在启动日志里，这个地址你可以直接用浏览器访问确认一下
@@ -85,7 +85,7 @@ exit_commands:
   - "退出"
   - "关闭"
 
-xiaozhi:
+xiaoluo:
   type: hello
   version: 1
   transport: websocket
@@ -105,9 +105,9 @@ module_test:
 
 # 唤醒词，用于识别唤醒词还是讲话内容
 wakeup_words:
-  - "你好小智"
+  - "你好小洛"
   - "嘿你好呀"
-  - "你好小志"
+  - "你好小洛"
   - "小爱同学"
   - "你好小鑫"
   - "你好小新"

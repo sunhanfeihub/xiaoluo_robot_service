@@ -117,7 +117,7 @@ async def _search_serply(api_key: str, query: str, max_results: int) -> str:
     url = "https://api.serply.io/v1/search"
     headers = {
         "X-Api-Key": api_key,
-        "User-Agent": "xiaozhi-esp32-server",
+        "User-Agent": "xiaoluo-esp32-server",
     }
     # Serply单页最多返回10条，且返回条数可能略多于num，需要本地再截断一次
     params = {"q": query, "num": min(max_results, 10)}

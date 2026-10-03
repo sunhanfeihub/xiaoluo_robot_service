@@ -144,7 +144,7 @@ async function submitConfig() {
       </view>
       <view class="help-content">
         <text class="help-item">
-          1. {{ t('deviceConfig.phoneConnectXiaozhiHotspot') }} (xiaozhi-XXXXXX)
+          1. {{ t('deviceConfig.phoneConnectXiaozhiHotspot') }} (xiaoluo-XXXXXX)
         </text>
         <text class="help-item">
           2. {{ t('deviceConfig.selectTargetWifiNetwork') }}
